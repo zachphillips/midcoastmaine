@@ -1,0 +1,229 @@
+/* CSS Document */
+@import url("./reset.css");
+
+body
+{
+	margin: 	0px;
+	padding:	0px;
+	overflow: hidden;
+	background-color: #fff;
+	top:auto;
+}
+
+.imatge{
+	position:absolute; 
+	left:0px; 
+	top:0px;
+	display:none;
+	cursor:pointer;
+	border:none;
+	overflow: hidden;
+}
+
+#info{
+	position:absolute; 
+	width:17%; 
+	height:3%; 
+	top:77.5%; 
+	left:34%;
+}
+
+#nick{
+	position:absolute;
+	width:13%; 
+	height:2.2%; 
+	top:29.5%; 
+	left:58%;
+}
+
+#victor{
+	position:absolute;
+	width:13%; 
+	height:2.2%; 
+	top:29.5%; 
+	left:71%;	
+}
+
+#jim{
+	position:absolute;
+	width:9%; 
+	height:2.2%; 
+	top:31.8%; 
+	left:48%;	
+}
+
+#anne{
+	position:absolute;
+	width:12%; 
+	height:2.5%; 
+	top:31.8%; 
+	left:57.5%;	
+}
+#oscar{
+	position:absolute;
+	width:10.5%; 
+	height:2.5%; 
+	top:34.3%; 
+	left:58%;	
+}
+
+#napi{
+	position:absolute;
+	width:10%; 
+	height:2.5%; 
+	top:34.3%; 
+	left:69.1%;	
+}
+#jun{
+	position:absolute;
+	width:7.8%; 
+	height:2.5%; 
+	top:37%; 
+	left:54.5%;	
+}
+
+#taichi{
+	position:absolute;
+	width:10%; 
+	height:2.5%; 
+	top:37%; 
+	left:62.9%;	
+}
+
+.language{
+	position:absolute;
+	bottom:0px;
+	left: 60px;
+	z-index:20;
+}
+
+.navigation{
+	position:absolute;
+	float: right;
+	bottom:0px;
+	right:40px;
+	visibility:hidden;
+	z-index:20;
+}
+
+.navigation2{
+	position:absolute;
+	float: right;
+	bottom:0px;
+	right:40px;
+	visibility:visible;
+	opacity:0.6%;
+	z-index:20;
+}
+
+a.m_navigation{
+	border:0px;
+	border-style:none;
+}
+	
+.contactform{
+	position:absolute;
+	float: right;
+	overflow:auto;
+	left: 0px;
+	top:10px;
+	padding-right: 10px;
+	left: 400px;
+	clear: both;
+}
+
+.facebook{
+	position:absolute;
+	float: right;
+	top: 4.5%;
+	right:295px;
+	z-index: 10000;
+	background-color: #transparent;
+	border-bottom: none; 
+}
+
+.twitter{
+	position:absolute;
+	float: right;
+	top: 4.5%;
+	right:265px;
+	z-index: 10000;
+	background-color: #transparent;
+	text-decoration:none;
+	border-bottom: none; 
+}
+
+.modal{
+	position: relative;
+	top: 50px;
+	font-family:"Arial";
+	text-transform: uppercase;
+	color: #111;
+	font-size:9px;
+	letter-spacing: 3px;
+	line-height: 12px;
+	left:50px;
+	text-align:left;
+}
+
+.press{
+	position: relative;
+	top: 50px;
+	font-family:"Arial";
+	text-transform: uppercase;
+	color: #111;
+	font-size:9px;
+	letter-spacing: 3px;
+	line-height: 12px;
+	left:50px;
+	text-align:left;
+}
+
+.press2{
+	position: relative;
+	top: 50px;
+	font-family:"Arial";
+	text-transform: uppercase;
+	color: #111;
+	font-size:9px;
+	letter-spacing: 3px;
+	line-height: 12px;
+	left:360px;
+	text-align:left;
+}
+
+.dropdown{
+	position:absolute;
+	bottom: 10px;
+	left: 10px;
+	z-index:9000;
+	color:#30C;
+}
+
+a:link {
+	color: #000;
+	text-decoration:none;
+	font-size: 9px;
+	font-spacing: 3px;
+	border: 0px;
+}
+
+a:visited {
+	font-size: 10px;
+	color: #000;
+	text-decoration:none;
+	border: 0px;
+}
+
+a:hover {
+	font-size: 10px;
+	color: #000;
+	text-decoration: none;
+	border: 0px;
+	border-bottom-style:none;
+	border-bottom:none;
+}
+
+a:modal, a:visited modal {
+	border:none;
+}
